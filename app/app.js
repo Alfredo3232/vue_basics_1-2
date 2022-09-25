@@ -11,4 +11,4 @@ Vue.createApp({
             this.enteredValue = '';
         }
     }
-}).mount('#apps');
+}).mount('#app');
