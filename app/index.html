@@ -14,10 +14,10 @@
         <div>
             <label for="goal">Goal</label>
             <input type="text" id="goal" v-model="enteredValue" />
-            <button>Add Goal</button>
+            <button v-on:click="addGoal">Add Goal</button>
         </div>
         <ul>
-
+            <li v-for="goal in Goals">{{ goal }}</li>
         </ul>
     </div>
     </div>
